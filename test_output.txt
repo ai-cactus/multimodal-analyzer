@@ -1,0 +1,10 @@
+/home/oluwaseyi/dev247/official/multimodal-analyzer/venv/lib/python3.14/site-packages/langchain_core/_api/deprecation.py:26: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1.fields import FieldInfo as FieldInfoV1
+{"asctime": "2026-02-05 11:48:01,042", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered llama-scout (llama)"}
+{"asctime": "2026-02-05 11:48:01,043", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered gemini-flash (gemini)"}
+{"asctime": "2026-02-05 11:48:01,727", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered gpt-oss (llama)"}
+Testing gemini-flash specifically...
+✅ SUCCESS:
+{
+  "response": "Okay, here's the importance of compliance, explained from a professional auditor's perspective:\n\n*   **Safeguards Organizational Integrity and Reputation:** Compliance with laws, regulations, and internal policies protects the organization from legal penalties, fines, and reputational damage. A strong compliance program demonstrates a commitment to ethical conduct and responsible business practices, fostering trust with stakeholders (customers, investors, employees, and the public). A single compliance failure can erode years of built-up trust and significantly impact the bottom line.\n\n*   **Mitigates Risks and Prevents Losses:** Compliance helps identify, assess, and mitigate potential risks across the organization. By adhering to established standards and controls, businesses can prevent financial losses, operational disruptions, and security breaches. Proactive compliance measures reduce the likelihood of costly incidents and ensure business continuity.\n\n*   **Enhances Operational Efficiency and Effectiveness:** Compliance often necessitates the implementation of standardized processes and controls. This can lead to improved operational efficiency, reduced errors, and better resource allocation. A well-designed compliance program can streamline workflows, enhance data accuracy, and promote a culture of accountability, ultimately contributing to improved business performance.\n"
+}

@@ -1,0 +1,31 @@
+/home/oluwaseyi/dev247/official/multimodal-analyzer/venv/lib/python3.14/site-packages/langchain_core/_api/deprecation.py:26: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1.fields import FieldInfo as FieldInfoV1
+{"asctime": "2026-02-05 11:59:31,907", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered llama-scout (llama)"}
+{"asctime": "2026-02-05 11:59:31,908", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered gemini-flash (gemini)"}
+{"asctime": "2026-02-05 11:59:32,438", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered gpt-oss (llama)"}
+/home/oluwaseyi/dev247/official/multimodal-analyzer/venv/lib/python3.14/site-packages/vertexai/generative_models/_generative_models.py:433: UserWarning: This feature is deprecated as of June 24, 2025 and will be removed on June 24, 2026. For details, see https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations/genai-vertexai-sdk.
+  warning_logs.show_deprecation_warning()
+Simulating 10 concurrent calls to Gemini...
+{"asctime": "2026-02-05 12:00:04,893", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:800::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+/home/oluwaseyi/dev247/official/multimodal-analyzer/venv/lib/python3.14/site-packages/vertexai/generative_models/_generative_models.py:433: UserWarning: This feature is deprecated as of June 24, 2025 and will be removed on June 24, 2026. For details, see https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations/genai-vertexai-sdk.
+  warning_logs.show_deprecation_warning()
+{"asctime": "2026-02-05 12:00:05,872", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:800::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+{"asctime": "2026-02-05 12:00:05,873", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:800::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+{"asctime": "2026-02-05 12:00:06,844", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:800::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+{"asctime": "2026-02-05 12:00:07,846", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:800::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+{"asctime": "2026-02-05 12:00:08,851", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:800::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+{"asctime": "2026-02-05 12:00:08,856", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:800::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+{"asctime": "2026-02-05 12:00:08,856", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:800::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+{"asctime": "2026-02-05 12:00:38,664", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:801::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+{"asctime": "2026-02-05 12:00:39,646", "name": "app.services.llm_client", "levelname": "ERROR", "message": "Error in Gemini Vertex SDK call: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2c0f:fb50:4003:802::200a%5D:443: Failed to connect to remote host: Timeout occurred: FD Shutdown"}
+Completed in 67.21 seconds
+Call 0 SUCCESS
+Call 1 SUCCESS
+Call 2 SUCCESS
+Call 3 SUCCESS
+Call 4 SUCCESS
+Call 5 SUCCESS
+Call 6 SUCCESS
+Call 7 SUCCESS
+Call 8 SUCCESS
+Call 9 SUCCESS

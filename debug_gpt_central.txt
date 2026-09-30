@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/home/oluwaseyi/dev247/official/multimodal-analyzer/test_gpt_oss_central.py", line 41, in <module>
+    asyncio.run(test_gpt_oss_central())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/oluwaseyi/dev247/official/multimodal-analyzer/test_gpt_oss_central.py", line 25, in test_gpt_oss_central
+    api_key=get_token()
+  File "/home/oluwaseyi/dev247/official/multimodal-analyzer/test_gpt_oss_central.py", line 12, in get_token
+    credentials.refresh(auth_request)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/oluwaseyi/dev247/official/multimodal-analyzer/venv/lib/python3.14/site-packages/google/oauth2/credentials.py", line 412, in refresh
+    ) = reauth.refresh_grant(
+        ~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<6 lines>...
+        enable_reauth_refresh=self._enable_reauth_refresh,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/oluwaseyi/dev247/official/multimodal-analyzer/venv/lib/python3.14/site-packages/google/oauth2/reauth.py", line 353, in refresh_grant
+    raise exceptions.RefreshError(
+        "Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate."
+    )
+google.auth.exceptions.RefreshError: Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate.

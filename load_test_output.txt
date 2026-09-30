@@ -1,0 +1,17 @@
+/home/oluwaseyi/dev247/official/multimodal-analyzer/venv/lib/python3.14/site-packages/langchain_core/_api/deprecation.py:26: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1.fields import FieldInfo as FieldInfoV1
+{"asctime": "2026-02-05 11:54:00,591", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered llama-scout (llama)"}
+{"asctime": "2026-02-05 11:54:00,592", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered gemini-flash (gemini)"}
+{"asctime": "2026-02-05 11:54:01,297", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered gpt-oss (llama)"}
+Simulating 10 concurrent calls to Gemini...
+Completed in 4.52 seconds
+Call 0 SUCCESS
+Call 1 SUCCESS
+Call 2 SUCCESS
+Call 3 SUCCESS
+Call 4 SUCCESS
+Call 5 SUCCESS
+Call 6 SUCCESS
+Call 7 SUCCESS
+Call 8 SUCCESS
+Call 9 SUCCESS

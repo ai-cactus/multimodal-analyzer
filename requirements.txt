@@ -1,0 +1,48 @@
+# Core Framework - Optimized for Python 3.14
+fastapi>=0.115.6
+uvicorn[standard]>=0.34.0
+pydantic>=2.10.5
+pydantic-settings>=2.7.1
+
+# Database
+sqlalchemy[asyncio]>=2.0.41  # Python 3.14 specific support
+asyncpg>=0.30.0
+alembic>=1.14.0
+pgvector>=0.3.6
+
+# Google Cloud Platform (Consolidated SDKs)
+google-cloud-documentai>=2.36.0
+google-cloud-aiplatform>=1.134.0
+google-api-core>=2.24.0
+google-auth>=2.37.1
+
+# Common Transitive Dependencies (Pinned for Stability)
+protobuf>=5.29.3
+grpcio>=1.69.0
+grpcio-status>=1.69.0
+typing-extensions>=4.12.2
+
+# LangChain 1.x Ecosystem
+langgraph>=1.0.7
+langchain>=1.2.7
+langchain-community>=0.4.1
+langchain-google-vertexai>=3.2.1
+langchain-core>=1.2.7
+
+# ML & AI (Best 3.14 Wheels)
+scikit-learn>=1.6.1
+numpy>=1.26.4
+
+# Output Generation
+python-docx>=1.1.2
+reportlab>=4.2.5
+
+# Production
+redis>=5.2.1
+prometheus-client>=0.21.1
+
+# Utilities
+python-multipart>=0.0.20
+python-json-logger>=3.2.1
+tenacity>=9.0.0
+pypdf>=5.1.0

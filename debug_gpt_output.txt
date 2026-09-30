@@ -1,0 +1,18 @@
+/home/oluwaseyi/dev247/official/multimodal-analyzer/venv/lib/python3.14/site-packages/langchain_core/_api/deprecation.py:26: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1.fields import FieldInfo as FieldInfoV1
+{"asctime": "2026-02-05 12:24:48,004", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered llama-scout (llama)"}
+{"asctime": "2026-02-05 12:24:48,005", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered gemini-flash (gemini)"}
+{"asctime": "2026-02-05 12:24:48,994", "name": "app.services.llm_client", "levelname": "INFO", "message": "Registered gpt-oss (llama)"}
+Testing gpt-oss probe...
+Calling OpenAI-compatible endpoint: https://us-east5-aiplatform.googleapis.com/v1/projects/multimodal-analyzer/locations/us-east5/endpoints/openapi/
+Model name: openai/gpt-oss-120b-maas
+❌ FAILED: Error code: 404 - [{'error': {'code': 404, 'message': 'Publisher Model `projects/944214143839/locations/us-east5/publishers/openai/models/gpt-oss-120b-maas` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions', 'status': 'NOT_FOUND'}}]
+Response status: 404
+Response text: [{
+  "error": {
+    "code": 404,
+    "message": "Publisher Model `projects/944214143839/locations/us-east5/publishers/openai/models/gpt-oss-120b-maas` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+    "status": "NOT_FOUND"
+  }
+}
+]
